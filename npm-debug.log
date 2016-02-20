@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run-script',
+1 verbose cli   'start-test-globalComponents' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose run-script [ 'prestart-test-globalComponents',
+5 verbose run-script   'start-test-globalComponents',
+5 verbose run-script   'poststart-test-globalComponents' ]
+6 info prestart-test-globalComponents react-redux-init@1.0.0
+7 info start-test-globalComponents react-redux-init@1.0.0
+8 verbose unsafe-perm in lifecycle true
+9 info react-redux-init@1.0.0 Failed to exec start-test-globalComponents script
+10 verbose stack Error: react-redux-init@1.0.0 start-test-globalComponents: `cd globalComponents && webpack && mocha bundle.test.js`
+10 verbose stack Exit status 255
+10 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+10 verbose stack     at EventEmitter.emit (events.js:110:17)
+10 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+10 verbose stack     at ChildProcess.emit (events.js:110:17)
+10 verbose stack     at maybeClose (child_process.js:1015:16)
+10 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+11 verbose pkgid react-redux-init@1.0.0
+12 verbose cwd /Users/kolombor/Desktop/react-redux-init
+13 error Darwin 15.3.0
+14 error argv "node" "/usr/local/bin/npm" "run-script" "start-test-globalComponents"
+15 error node v0.12.7
+16 error npm  v2.12.1
+17 error code ELIFECYCLE
+18 error react-redux-init@1.0.0 start-test-globalComponents: `cd globalComponents && webpack && mocha bundle.test.js`
+18 error Exit status 255
+19 error Failed at the react-redux-init@1.0.0 start-test-globalComponents script 'cd globalComponents && webpack && mocha bundle.test.js'.
+19 error This is most likely a problem with the react-redux-init package,
+19 error not with npm itself.
+19 error Tell the author that this fails on your system:
+19 error     cd globalComponents && webpack && mocha bundle.test.js
+19 error You can get their info via:
+19 error     npm owner ls react-redux-init
+19 error There is likely additional logging output above.
+20 verbose exit [ 1, true ]

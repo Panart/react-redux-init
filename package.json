@@ -1,0 +1,41 @@
+{
+  "name": "react-redux-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-markup": "babel-node --presets es2015 -- server.markup.js",
+    "start-app-dev": "babel-node --presets es2015 -- server.app.dev.js",
+    "start-test-globalComponents": "cd globalComponents/tests && webpack && mocha bundle.test.js"
+  },
+  "author": "Postol Ivan",
+  "license": "ISC",
+  "homepage": "https://github.com/IvanPostol/react-redux-init#readme",
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-core": "^6.3.15",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-add-module-exports": "^0.1.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "expect": "^1.13.4",
+    "express": "^4.13.3",
+    "history": "~1.17.0",
+    "mocha": "^2.3.4",
+    "react": "^0.14.3",
+    "react-addons-test-utils": "^0.14.7",
+    "react-dom": "^0.14.3",
+    "react-hot-loader": "^1.3.0",
+    "react-native-listener": "^1.0.1",
+    "react-redux": "^4.0.6",
+    "react-router": "^1.0.3",
+    "redux": "^3.0.5",
+    "redux-devtools": "^3.0.1",
+    "redux-devtools-dock-monitor": "^1.0.1",
+    "redux-devtools-log-monitor": "^1.0.2",
+    "redux-router": "^1.0.0-beta4",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
