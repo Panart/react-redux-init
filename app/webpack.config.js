@@ -33,7 +33,7 @@ module.exports = {
     alias: {
       globalComponents: __dirname + '/../globalComponents/components',
       components: __dirname + '/components',
-      ActionsTypes: __dirname + '/constants/ActionsTypes',
+      ActionTypes: __dirname + '/constants/ActionTypes',
       Actions: __dirname + '/actions',
       urls: __dirname + '/constants/urls'
     }

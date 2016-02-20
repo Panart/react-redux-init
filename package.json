@@ -6,7 +6,8 @@
   "scripts": {
     "start-markup": "babel-node --presets es2015 -- server.markup.js",
     "start-app-dev": "babel-node --presets es2015 -- server.app.dev.js",
-    "start-test-globalComponents": "cd globalComponents/tests && webpack && mocha bundle.test.js"
+    "start-test-globalComponents": "cd globalComponents/tests && webpack && mocha bundle.test.js",
+    "start-test-app": "cd app/tests && webpack && mocha bundle.test.js"
   },
   "author": "Postol Ivan",
   "license": "ISC",

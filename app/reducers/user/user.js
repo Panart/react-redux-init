@@ -1,4 +1,4 @@
-import { CHANGE_LOGIN, } from 'ActionsTypes'
+import { CHANGE_LOGIN, } from 'ActionTypes'
 
 export default function(state = {
   login: ''
